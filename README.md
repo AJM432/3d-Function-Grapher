@@ -1,5 +1,4 @@
 # 3d_Grapher
 
 # Demo
-https://user-images.githubusercontent.com/49791407/163463392-23de95ce-36e0-44d3-9a98-0e4152158e33.mp4
-
+![ezgif-4-5c649a40b2](https://user-images.githubusercontent.com/49791407/163464394-74da6720-e499-43f1-99f2-75a7672f57f0.gif)
