@@ -41,17 +41,11 @@ def z_function(x, y):
 
     return (x**2 + y**2)/10
 
-    # if x <= 0 or y <= 0:
-        # return 0
-
-    # return np.sin((x**(1/2)) + y**(1/2))*10
-
     # return sum(abs(1/n**(1j*x+1j*y)) for n in range(1, 100))
     
     # return 0
 
     # return np.sin(5*x)*np.cos(5*y)*5
-
 
     # if x**2 + y**2 == 0: return 0
     # else: return (np.tan(np.log(x**2+ y**2)))
