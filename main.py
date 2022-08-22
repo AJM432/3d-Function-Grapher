@@ -3,7 +3,7 @@ import numpy as np
 
 pygame.init()
 clock = pygame.time.Clock()
-WIDTH = HEIGHT = 400 # keep width and height the same
+WIDTH = HEIGHT = 600# keep width and height the same
 WIN = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("3d Graphing")
 
@@ -12,6 +12,7 @@ BLACK = (0, 0, 0)
 WHITE = (255, 255, 255)
 BLUE = (0, 0, 255)
 GREEN = (0, 255, 0)
+BACKGROUND_COLOR = BLACK
 SCALE_FACTOR = 10
 SCALE_FACTOR_CHANGE = 1
 original_scale_factor = SCALE_FACTOR
@@ -35,20 +36,21 @@ def z_function(x, y):
 
     # if x*np.sin(y) + y*np.cos(x) <= 0: return 0
     # return np.log(x*np.sin(y) + y*np.cos(x))*2
-# 
+ 
     # return np.sin(((x**2 + y**2)**(1/2)))*7
 
-    # return (x**2 + y**2)/10
+    return (x**2 + y**2)/10
+
     # if x <= 0 or y <= 0:
         # return 0
-    
+
     # return np.sin((x**(1/2)) + y**(1/2))*10
 
     # return sum(abs(1/n**(1j*x+1j*y)) for n in range(1, 100))
-
+    
     # return 0
 
-    return np.sin(5*x)*np.cos(5*y)*5
+    # return np.sin(5*x)*np.cos(5*y)*5
 
 
     # if x**2 + y**2 == 0: return 0
@@ -195,7 +197,7 @@ while running:
         else:
             SCALE_FACTOR = 1
 
-    WIN.fill(WHITE)
+    WIN.fill(BACKGROUND_COLOR)
 
     two_dim_projection = np.dot(three_dim_points_copy, projection_matrix)
     draw_matrix(two_dim_projection)
