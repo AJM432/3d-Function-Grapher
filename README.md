@@ -4,6 +4,9 @@
 </div>
 <br>
 
+![](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=blue&color=white) 
+![](https://img.shields.io/tokei/lines/github/AJM432/3d-Function-Grapher) 
+![](https://img.shields.io/github/repo-size/AJM432/3d-Function-Grapher?style=flat)
 
 # Demo
 ![ezgif-4-5c649a40b2](https://user-images.githubusercontent.com/49791407/163464394-74da6720-e499-43f1-99f2-75a7672f57f0.gif)
